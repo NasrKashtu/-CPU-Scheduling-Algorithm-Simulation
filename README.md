@@ -27,7 +27,7 @@ Clone the repo:
 bash
 Copy
 Edit
-git clone https://github.com/your-username/cpu-scheduling.git
+git clone https://github.com/NasrKashtu/cpu-scheduling.git
 cd cpu-scheduling
 Install dependencies (if any):
 
