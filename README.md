@@ -1,75 +1,37 @@
-# CPU Scheduling
-📋 Description
-markdown
-Copy
-Edit
-This project simulates various CPU scheduling algorithms such as FCFS (First-Come First-Serve), SJF (Shortest Job First), Round Robin, and Priority Scheduling. It's designed to help understand how different scheduling techniques affect process execution in operating systems.
-🎯 Features
-markdown
-Copy
-Edit
-- FCFS, SJF (preemptive/non-preemptive), Round Robin, Priority Scheduling
-- Gantt chart generation
-- Waiting and turnaround time calculation
-- CLI or GUI interface (mention if included)
-🛠️ Technologies Used
-markdown
-Copy
-Edit
-- Programming Language: Python / Java / C++ (specify your language)
-- Libraries: matplotlib, tkinter, etc. (if used)
-🚀 Getting Started
-markdown
-Copy
-Edit
-## Installation
-Clone the repo:
-bash
-Copy
-Edit
+# CPU Scheduling Algorithm Simulator
+
+A simulation and visualization tool for CPU scheduling algorithms. Renders Gantt charts in real time and calculates average wait and turnaround times to make direct algorithm comparisons easy.
+
+## Supported Algorithms
+
+| Algorithm | Description |
+|-----------|-------------|
+| **FCFS** | First-Come, First-Served — processes in arrival order |
+| **SJF** | Shortest Job First — prioritizes shortest burst time |
+| **Round Robin** | Time-slice based with configurable quantum |
+
+## Features
+
+- Interactive process input (arrival time, burst time)
+- Gantt chart visualization
+- Average waiting time and turnaround time calculations
+- Side-by-side algorithm comparison
+
+## Tech Stack
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+
+## Getting Started
+
+```bash
 git clone https://github.com/NasrKashtu/-CPU-Scheduling-Algorithm-Simulation.git
-cd cpu-scheduling
-Install dependencies (if any):
+cd -CPU-Scheduling-Algorithm-Simulation
+javac *.java
+java Main
+```
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-📈 Usage
-markdown
-Copy
-Edit
-Run the simulation:
-bash
-Copy
-Edit
-python main.py
-Or if there's a GUI:
+> Requires Java 11 or later.
 
-bash
-Copy
-Edit
-python gui.py
-🧪 Example Output
-markdown
-Copy
-Edit
-Include screenshots of the Gantt chart or terminal output showing scheduling results.
-📚 Algorithms Covered
-markdown
-Copy
-Edit
-- First Come First Serve (FCFS)
-- Shortest Job First (SJF)
-- Round Robin (RR)
-- Priority Scheduling
-👨‍💻 Contributors
-markdown
-Copy
-Edit
-- Kashtu (Your Name)
-📄 License
-markdown
-Copy
-Edit
-MIT License (or whatever license you choose)
+## Author
+
+**Nasr Kashtu** — [nasrkashtu@gmail.com](mailto:nasrkashtu@gmail.com)
